@@ -13,6 +13,8 @@
 		ED654C8B1B3DFA5900AE1DE7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED654C8A1B3DFA5900AE1DE7 /* Images.xcassets */; };
 		ED654C8E1B3DFA5900AE1DE7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED654C8C1B3DFA5900AE1DE7 /* LaunchScreen.xib */; };
 		ED654C9A1B3DFA5900AE1DE7 /* SwiftLoginScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED654C991B3DFA5900AE1DE7 /* SwiftLoginScreenTests.swift */; };
+		ED654CA41B3E031300AE1DE7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED654CA31B3E031300AE1DE7 /* LoginVC.swift */; };
+		ED654CA61B3E047B00AE1DE7 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED654CA51B3E047B00AE1DE7 /* SignupVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		ED654C931B3DFA5900AE1DE7 /* SwiftLoginScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLoginScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED654C981B3DFA5900AE1DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED654C991B3DFA5900AE1DE7 /* SwiftLoginScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLoginScreenTests.swift; sourceTree = "<group>"; };
+		ED654CA31B3E031300AE1DE7 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		ED654CA51B3E047B00AE1DE7 /* SignupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				ED654C8A1B3DFA5900AE1DE7 /* Images.xcassets */,
 				ED654C8C1B3DFA5900AE1DE7 /* LaunchScreen.xib */,
 				ED654C811B3DFA5900AE1DE7 /* Supporting Files */,
+				ED654CA31B3E031300AE1DE7 /* LoginVC.swift */,
+				ED654CA51B3E047B00AE1DE7 /* SignupVC.swift */,
 			);
 			path = SwiftLoginScreen;
 			sourceTree = "<group>";
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED654CA61B3E047B00AE1DE7 /* SignupVC.swift in Sources */,
 				ED654C861B3DFA5900AE1DE7 /* ViewController.swift in Sources */,
 				ED654C841B3DFA5900AE1DE7 /* AppDelegate.swift in Sources */,
+				ED654CA41B3E031300AE1DE7 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
